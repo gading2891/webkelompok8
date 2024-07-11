@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #000000;
+  padding: 24px;
+}
+
+.sidebar .logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+.sidebar .logo a .img2 {
+  width: 145px;
+  height: 130px;
+}
+
+.sidebar .navigasi ul {
+  list-style: none;
+  margin-top: -10px;
+}
+
+.sidebar .navigasi ul li {
+  padding: 15px 0px;
+}
+
+.sidebar .navigasi ul li a {
+  color: #adacac;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  height: 50px;
+}
+
+.sidebar .navigasi ul li a:hover {
+  color: green;
+}
+
+.sidebar .navigasi ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.Tnav {
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.Hnav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #000;
+  padding: 14px 30px;
+  margin-left: 0;
+}
+
+.Hnav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Hnav .navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Hnav .navbar ul li {
+  margin-right: 20px;
+}
+
+.Hnav .navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.Hnav .navbar ul li a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16.5px;
+}
+
+.Hnav .navbar button {
+  background-color: yellow;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.content {
+  margin-left: 200px;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.sidebar .policies {
+  position: absolute;
+  bottom: 10px;
+  
+}
+
+.sidebar .policies ul {
+  list-style: none;
+}
+
+.sidebar .policies ul li {
+  padding-bottom: 5px;
+}
+
+.sidebar .policies ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.sidebar .policies ul li a:hover {
+  text-decoration: underline;
+}
+
+.Boxpenjelasan{
+padding: 10px 20px;
+}
+
+#pop{
+  background-color: #b3b3b3;
+  border-radius: 10px;
+}
+
+.album-cover{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.luar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.luar .bulat{
+  padding:0px;
+}
+
+.luar .bulat img{
+  border-radius: 50%;
+  width: 150px;
+  height: 160px;
+  margin: 50px;
+}
+
+.row .col-md-2 .lagu a{
+  text-decoration: none;
+  color: #000;
+}
+
+.row .col-md-2 .lagu div{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,402 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+.sidebar {
+  position: fixed;
+  left: 10px;
+  top: 30px;
+  bottom: 0;
+  width: 200px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  margin-left: -21px;
+  width: 200px;
+  padding-bottom: 0px;
+  background-color: #1a181d;
+  border-radius: 10px;
+}
+
+.sidebar .logo a .img2 {
+  width: 140px;
+  height: 80px;
+  
+}
+
+.sidebar .navigasi{
+  padding-left: 20px;
+}
+
+.sidebar .navigasi ul {
+  list-style: none;
+  margin-top: 5px;
+  background-color: #1a181d;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: -40px;
+}
+
+.sidebar .navigasi ul li {
+  padding: 15px 0px;
+}
+
+.sidebar .navigasi ul li a {
+  color: #adacac;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  height: 50px;
+}
+
+.sidebar .navigasi ul li a:hover {
+  color: yellow;
+}
+
+.sidebar .navigasi ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.sidebar .navigasi1{
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+.sidebar .navigasi1 ul {
+  list-style: none;
+  margin-top: 5px;
+  background-color: #1a181d;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: -40px;
+}
+
+.sidebar .navigasi1 ul li {
+  padding: 15px 0px;
+}
+
+.sidebar .navigasi1 ul li a {
+  color: #adacac;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  height: 50px;
+}
+
+.sidebar .navigasi1 ul li a:hover {
+  color: yellow;
+}
+
+.sidebar .navigasi1 ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.Tnav {
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.Hnav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1a181d;
+  padding: 14px 30px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.Hnav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Hnav .navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Hnav .navbar ul li {
+  margin-right: 20px;
+}
+
+.Hnav .navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.Hnav .navbar ul li a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16.5px;
+}
+
+.Hnav .navbar button {
+  background-color: yellow;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.content {
+  margin-left: 200px;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.sidebar .policies {
+  position: absolute;
+  bottom: 10px;
+  
+}
+
+.sidebar .policies ul {
+  list-style: none;
+}
+
+.sidebar .policies ul li {
+  padding-bottom: 5px;
+}
+
+.sidebar .policies ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.sidebar .policies ul li a:hover {
+  text-decoration: underline;
+}
+
+.Boxpenjelasan{
+padding: 10px 20px;
+}
+
+#pop{
+  background-color: #b3bc6f;
+  border-radius: 10px;
+}
+
+.album-cover{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.luar{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.luar .bulat{
+  padding:0px;
+}
+
+.luar .bulat .gbr3{
+  border-radius: 50%;
+  width: 150px;
+  height: 160px;
+  margin: 50px;
+  max-width: 100%; 
+  height: auto;
+}
+
+.row .col-md-2 .lagu a{
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.row .col-md-2 .lagu a img{
+  max-width: 100%; 
+  height: auto;
+
+}
+
+.row .col-md-2 .lagu div{
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  
+}
+
+.Box-luar{
+  background-color: #000;
+  padding: 5px;
+  overflow: hidden;
+  margin-top: -5px;
+  display:inline-table;
+  justify-content: center;
+}
+.box-tgh{
+  background-color: #1a181d;
+  padding: 10px;
+  overflow: hidden;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.Box-luar .box-dlm{
+  background-color: #1a181d;
+  border-radius: 10px;
+  overflow: auto;
+  display:contents
+}
+
+.Box-luar1{
+  background-color: #000;
+  padding: 5px;
+  overflow: hidden;
+  margin-top: -5px;
+  display:inline-table;
+  border-radius: 10px;
+}
+
+.Box-luar1 .box-dlm1{
+  background-color: #1a181d;
+  border-radius: 10px;
+  overflow: auto;
+  display:contents;
+}
+
+@media (max-width: 768px) {
+  .album-cover {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .box-tgh h3{
+    font-size: 15px;
+  }
+
+  .box-tgh a .img{
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .box-tgh div .album-title {
+      font-size: 11px;
+    }
+  
+    .box-tgh div {
+      font-size: 13px;
+    }
+  
+  .Hnav .navbar ul li a {
+      font-size: 14px;
+    }
+
+  .row .col-md-2 {
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding: 0px;
+  }
+
+  .sidebar {
+    width: 100px; /* Sesuaikan dengan lebar yang diinginkan */
+  }
+
+  .sidebar .logo{
+    width: 100px;
+  }
+
+  .sidebar .logo a .img2 {
+    width: 90px; /* Sesuaikan dengan lebar yang diinginkan */
+    height: 50px; /* Sesuaikan dengan tinggi yang diinginkan */
+  }
+
+  .sidebar .navigasi ul, .sidebar .navigasi1 ul {
+    width: 100px; /* Sesuaikan dengan lebar sidebar */
+  }
+
+  .sidebar .navigasi ul li a, .sidebar .navigasi1 ul li a {
+    font-size: 5px; /* Sesuaikan ukuran font */
+    padding: 0 -10px; /* Sesuaikan padding */
+    margin-left: -20px;
+  }
+
+  .sidebar .policies ul li a {
+    font-size: 10px; /* Sesuaikan ukuran font */
+    margin-left: -35px;
+  }
+
+  .Tnav {
+    margin-left: 100px; /* Sesuaikan dengan lebar sidebar */
+  }
+
+  .content {
+    margin-left: 100px; /* Sesuaikan dengan lebar sidebar */
+  }
+
+  .Hnav{
+    height: 50px;
+  }
+
+  .Hnav .navbar{
+    margin-top: -20px;
+    margin-right: -15px;
+  }
+
+  .Hnav .navbar ul li {
+    padding: 10px;
+    margin: 0px;
+    display: inline;
+  }
+
+  .Hnav .navbar ul li a {
+    font-size: 12px;
+  }
+
+  .Hnav .navbar button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .sidebar .navigasi ul li a,
+  .sidebar .navigasi1 ul li a {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .row .col-md-2 {
+    flex: 0 0 16%;
+    max-width: 16%;
+  }
+}
